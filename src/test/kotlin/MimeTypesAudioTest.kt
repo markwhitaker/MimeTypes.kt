@@ -36,7 +36,7 @@ class MimeTypesAudioTest {
 
     @Test
     fun testAudioXAcc() {
-        Assert.assertEquals("audio/x-acc", MimeTypes.Audio.X_AAC)
+        Assert.assertEquals("audio/x-aac", MimeTypes.Audio.X_AAC)
     }
 
     @Test
