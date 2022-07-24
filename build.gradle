@@ -15,8 +15,6 @@ repositories {
 group 'uk.co.mainwave.mimetypes'
 version gitVersion()
 
-sourceCompatibility = 1.8
-
 dependencies {
     implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8'
     testImplementation "junit:junit:$junit_version"
