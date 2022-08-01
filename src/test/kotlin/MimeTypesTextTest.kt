@@ -5,47 +5,29 @@ import org.junit.Test
 
 class MimeTypesTextTest {
     @Test
-    fun testTextCss() {
-        Assert.assertEquals("text/css", MimeTypes.Text.CSS)
-    }
+    fun testTextCss() = Assert.assertEquals("text/css", MimeTypes.Text.CSS)
 
     @Test
-    fun testTextCsv() {
-        Assert.assertEquals("text/csv", MimeTypes.Text.CSV)
-    }
+    fun testTextCsv() = Assert.assertEquals("text/csv", MimeTypes.Text.CSV)
 
     @Test
-    fun testTextHtml() {
-        Assert.assertEquals("text/html", MimeTypes.Text.HTML)
-    }
+    fun testTextHtml() = Assert.assertEquals("text/html", MimeTypes.Text.HTML)
 
     @Test
-    fun testTextJavascript() {
-        Assert.assertEquals("text/javascript", MimeTypes.Text.JAVASCRIPT)
-    }
+    fun testTextJavascript() = Assert.assertEquals("text/javascript", MimeTypes.Text.JAVASCRIPT)
 
     @Test
-    fun testTextPlain() {
-        Assert.assertEquals("text/plain", MimeTypes.Text.PLAIN)
-    }
+    fun testTextPlain() = Assert.assertEquals("text/plain", MimeTypes.Text.PLAIN)
 
     @Test
-    fun testTextRichtext() {
-        Assert.assertEquals("text/richtext", MimeTypes.Text.RICHTEXT)
-    }
+    fun testTextRichtext() = Assert.assertEquals("text/richtext", MimeTypes.Text.RICHTEXT)
 
     @Test
-    fun testTextSgml() {
-        Assert.assertEquals("text/sgml", MimeTypes.Text.SGML)
-    }
+    fun testTextSgml() = Assert.assertEquals("text/sgml", MimeTypes.Text.SGML)
 
     @Test
-    fun testTextXml() {
-        Assert.assertEquals("text/xml", MimeTypes.Text.XML)
-    }
+    fun testTextXml() = Assert.assertEquals("text/xml", MimeTypes.Text.XML)
 
     @Test
-    fun testTextYaml() {
-        Assert.assertEquals("text/yaml", MimeTypes.Text.YAML)
-    }
+    fun testTextYaml() = Assert.assertEquals("text/yaml", MimeTypes.Text.YAML)
 }
