@@ -5,32 +5,20 @@ import org.junit.Test
 
 class MimeTypesFontTest {
     @Test
-    fun testFontCollection() {
-        Assert.assertEquals("font/collection", MimeTypes.Font.COLLECTION)
-    }
+    fun testFontCollection() = Assert.assertEquals("font/collection", MimeTypes.Font.COLLECTION)
 
     @Test
-    fun testFontOtf() {
-        Assert.assertEquals("font/otf", MimeTypes.Font.OTF)
-    }
+    fun testFontOtf() = Assert.assertEquals("font/otf", MimeTypes.Font.OTF)
 
     @Test
-    fun testFontSfnt() {
-        Assert.assertEquals("font/sfnt", MimeTypes.Font.SFNT)
-    }
+    fun testFontSfnt() = Assert.assertEquals("font/sfnt", MimeTypes.Font.SFNT)
 
     @Test
-    fun testFontTtf() {
-        Assert.assertEquals("font/ttf", MimeTypes.Font.TTF)
-    }
+    fun testFontTtf() = Assert.assertEquals("font/ttf", MimeTypes.Font.TTF)
 
     @Test
-    fun testFontWoff() {
-        Assert.assertEquals("font/woff", MimeTypes.Font.WOFF)
-    }
+    fun testFontWoff() = Assert.assertEquals("font/woff", MimeTypes.Font.WOFF)
 
     @Test
-    fun testFontWoff2() {
-        Assert.assertEquals("font/woff2", MimeTypes.Font.WOFF_2)
-    }
+    fun testFontWoff2() = Assert.assertEquals("font/woff2", MimeTypes.Font.WOFF_2)
 }
