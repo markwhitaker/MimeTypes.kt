@@ -1,6 +1,6 @@
 ![icon](artwork/MimeTypes-icon-100.png)
 
-# MimeTypes.kt [![CircleCI](https://circleci.com/gh/markwhitaker/MimeTypes.kt.svg?style=shield)](https://circleci.com/gh/markwhitaker/MimeTypes.kt) [![](https://jitpack.io/v/markwhitaker/MimeTypes.kt.svg)](https://jitpack.io/#markwhitaker/MimeTypes.kt)
+# MimeTypes.kt [![Build and test](https://github.com/markwhitaker/MimeTypes.kt/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/markwhitaker/MimeTypes.kt/actions/workflows/build-and-test.yml) [![](https://jitpack.io/v/markwhitaker/MimeTypes.kt.svg)](https://jitpack.io/#markwhitaker/MimeTypes.kt)
 
 
 A structured collection of MIME type constants to use in your Kotlin projects.
