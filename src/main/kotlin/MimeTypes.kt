@@ -515,6 +515,11 @@ object MimeTypes {
         private const val PREFIX = "text/"
 
         /**
+         * text/calendar
+         */
+        const val CALENDAR = PREFIX + "calendar"
+
+        /**
          * text/css
          */
         const val CSS = PREFIX + "css"

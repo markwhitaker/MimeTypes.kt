@@ -5,6 +5,9 @@ import org.junit.Test
 
 class MimeTypesTextTest {
     @Test
+    fun testTextCalendar() = Assert.assertEquals("text/calendar", MimeTypes.Text.CALENDAR)
+
+    @Test
     fun testTextCss() = Assert.assertEquals("text/css", MimeTypes.Text.CSS)
 
     @Test
