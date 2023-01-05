@@ -5,6 +5,9 @@ import org.junit.Test
 
 class MimeTypesImageTest {
     @Test
+    fun testImageAvif() = Assert.assertEquals("image/avif", MimeTypes.Image.AVIF)
+
+    @Test
     fun testImageBmp() = Assert.assertEquals("image/bmp", MimeTypes.Image.BMP)
 
     @Test
@@ -21,6 +24,9 @@ class MimeTypesImageTest {
 
     @Test
     fun testImageTiff() = Assert.assertEquals("image/tiff", MimeTypes.Image.TIFF)
+
+    @Test
+    fun testImageVndMicrosoftIcon() = Assert.assertEquals("image/vnd.microsoft.icon", MimeTypes.Image.VND_MICROSOFT_ICON)
 
     @Test
     fun testImageWebp() = Assert.assertEquals("image/webp", MimeTypes.Image.WEBP)

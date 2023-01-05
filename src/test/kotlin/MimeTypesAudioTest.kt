@@ -17,6 +17,15 @@ class MimeTypesAudioTest {
     fun testAudioOgg() = Assert.assertEquals("audio/ogg", MimeTypes.Audio.OGG)
 
     @Test
+    fun testAudioOpus() = Assert.assertEquals("audio/opus", MimeTypes.Audio.OPUS)
+
+    @Test
+    fun testAudioThreegpp() = Assert.assertEquals("audio/3gpp", MimeTypes.Audio.THREEGPP)
+
+    @Test
+    fun testAudioThreegpp2() = Assert.assertEquals("audio/3gpp2", MimeTypes.Audio.THREEGPP2)
+
+    @Test
     fun testAudioWav() = Assert.assertEquals("audio/wav", MimeTypes.Audio.WAV)
 
     @Test
@@ -27,6 +36,9 @@ class MimeTypesAudioTest {
 
     @Test
     fun testAudioXAiff() = Assert.assertEquals("audio/x-aiff", MimeTypes.Audio.X_AIFF)
+
+    @Test
+    fun testAudioXMidi() = Assert.assertEquals("audio/x-midi", MimeTypes.Audio.X_MIDI)
 
     @Test
     fun testAudioXMpegurl() = Assert.assertEquals("audio/x-mpegurl", MimeTypes.Audio.X_MPEGURL)
