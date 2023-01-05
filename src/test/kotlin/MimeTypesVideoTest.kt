@@ -5,9 +5,6 @@ import org.junit.Test
 
 class MimeTypesVideoTest {
     @Test
-    fun testVideo3gpp() = Assert.assertEquals("video/3gpp", MimeTypes.Video.THREE_GPP)
-
-    @Test
     fun testVideoH264() = Assert.assertEquals("video/h264", MimeTypes.Video.H264)
 
     @Test
@@ -23,5 +20,17 @@ class MimeTypesVideoTest {
     fun testVideoQuicktime() = Assert.assertEquals("video/quicktime", MimeTypes.Video.QUICKTIME)
 
     @Test
+    fun testVideoThreegppDeprecatedVersion() = Assert.assertEquals("video/3gpp", MimeTypes.Video.THREE_GPP)
+
+    @Test
+    fun testVideoThreegpp() = Assert.assertEquals("video/3gpp", MimeTypes.Video.THREEGPP)
+
+    @Test
+    fun testVideoThreegpp2() = Assert.assertEquals("video/3gpp2", MimeTypes.Video.THREEGPP2)
+
+    @Test
     fun testVideoWebm() = Assert.assertEquals("video/webm", MimeTypes.Video.WEBM)
+
+    @Test
+    fun testVideoXMsvideo() = Assert.assertEquals("video/x-msvideo", MimeTypes.Video.X_MSVIDEO)
 }

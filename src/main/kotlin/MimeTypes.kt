@@ -572,14 +572,14 @@ object MimeTypes {
         private const val PREFIX = "video/"
 
         /**
-         * video/3gpp
-         */
-        const val THREE_GPP = PREFIX + "3gpp"
-
-        /**
          * video/h264
          */
         const val H264 = PREFIX + "h264"
+
+        /**
+         * video/mp2t
+         */
+        const val MP2T = PREFIX + "mp2t"
 
         /**
          * video/mp4
@@ -602,8 +602,29 @@ object MimeTypes {
         const val QUICKTIME = PREFIX + "quicktime"
 
         /**
+         * video/3gpp
+         */
+        @Deprecated("Replaced due to inconsistent naming", ReplaceWith("THREEGPP"))
+        const val THREE_GPP = PREFIX + "3gpp"
+
+        /**
+         * video/3gpp
+         */
+        const val THREEGPP = PREFIX + "3gpp"
+
+        /**
+         * video/3gpp2
+         */
+        const val THREEGPP2 = PREFIX + "3gpp2"
+
+        /**
          * video/webm
          */
         const val WEBM = PREFIX + "webm"
+
+        /**
+         * video/x-msvideo
+         */
+        const val X_MSVIDEO = PREFIX + "x-msvideo"
     }
 }
