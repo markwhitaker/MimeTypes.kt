@@ -337,6 +337,21 @@ object MimeTypes {
         const val OGG = PREFIX + "ogg"
 
         /**
+         * audio/opus
+         */
+        const val OPUS = PREFIX + "opus"
+
+        /**
+         * audio/3gpp
+         */
+        const val THREEGPP = PREFIX + "3gpp"
+
+        /**
+         * audio/3gpp2
+         */
+        const val THREEGPP2 = PREFIX + "3gpp2"
+
+        /**
          * audio/wav
          */
         const val WAV = PREFIX + "wav"
@@ -355,6 +370,11 @@ object MimeTypes {
          * audio/x-aiff
          */
         const val X_AIFF = PREFIX + "x-aiff"
+
+        /**
+         * audio/x-midi
+         */
+        const val X_MIDI = PREFIX + "x-midi"
 
         /**
          * audio/x-mpegurl
