@@ -436,6 +436,11 @@ object MimeTypes {
         private const val PREFIX = "image/"
 
         /**
+         * image/avif
+         */
+        const val AVIF = PREFIX + "avif"
+
+        /**
          * image/bmp
          */
         const val BMP = PREFIX + "bmp"
@@ -464,6 +469,11 @@ object MimeTypes {
          * image/tiff
          */
         const val TIFF = PREFIX + "tiff"
+
+        /**
+         * image/vnd.microsoft.icon
+         */
+        const val VND_MICROSOFT_ICON = PREFIX + "vnd.microsoft.icon"
 
         /**
          * image/webp
