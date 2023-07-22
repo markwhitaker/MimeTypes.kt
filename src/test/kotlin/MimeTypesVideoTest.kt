@@ -8,6 +8,9 @@ class MimeTypesVideoTest {
     fun testVideoH264() = Assert.assertEquals("video/h264", MimeTypes.Video.H264)
 
     @Test
+    fun testVideoMp2t() = Assert.assertEquals("video/mp2t", MimeTypes.Video.MP2T)
+
+    @Test
     fun testVideoMp4() = Assert.assertEquals("video/mp4", MimeTypes.Video.MP4)
 
     @Test
