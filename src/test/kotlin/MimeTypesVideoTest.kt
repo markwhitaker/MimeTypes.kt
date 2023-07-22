@@ -23,9 +23,6 @@ class MimeTypesVideoTest {
     fun testVideoQuicktime() = Assert.assertEquals("video/quicktime", MimeTypes.Video.QUICKTIME)
 
     @Test
-    fun testVideoThreegppDeprecatedVersion() = Assert.assertEquals("video/3gpp", MimeTypes.Video.THREE_GPP)
-
-    @Test
     fun testVideoThreegpp() = Assert.assertEquals("video/3gpp", MimeTypes.Video.THREEGPP)
 
     @Test

@@ -604,12 +604,6 @@ object MimeTypes {
         /**
          * video/3gpp
          */
-        @Deprecated("Replaced due to inconsistent naming", ReplaceWith("THREEGPP"))
-        const val THREE_GPP = PREFIX + "3gpp"
-
-        /**
-         * video/3gpp
-         */
         const val THREEGPP = PREFIX + "3gpp"
 
         /**
