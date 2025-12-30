@@ -20,6 +20,9 @@ class MimeTypesTextTest {
     fun testTextJavascript() = Assert.assertEquals("text/javascript", MimeTypes.Text.JAVASCRIPT)
 
     @Test
+    fun testTextMarkdown() = Assert.assertEquals("text/markdown", MimeTypes.Text.MARKDOWN)
+
+    @Test
     fun testTextPlain() = Assert.assertEquals("text/plain", MimeTypes.Text.PLAIN)
 
     @Test

@@ -34,6 +34,9 @@ object MimeTypes {
         /** application/ld+json */
         const val LD_JSON = PREFIX + "ld+json"
 
+        /** application/manifest+json */
+        const val MANIFEST_JSON = PREFIX + "manifest+json"
+
         /** application/mp4 */
         const val MP4 = PREFIX + "mp4"
 
@@ -328,6 +331,9 @@ object MimeTypes {
 
         /** text/javascript */
         const val JAVASCRIPT = PREFIX + "javascript"
+
+        /** text/markdown */
+        const val MARKDOWN = PREFIX + "markdown"
 
         /** text/plain */
         const val PLAIN = PREFIX + "plain"

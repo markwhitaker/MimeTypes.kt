@@ -32,6 +32,9 @@ class MimeTypesApplicationTest {
     fun testApplicationLdJson() = assertEquals("application/ld+json", MimeTypes.Application.LD_JSON)
 
     @Test
+    fun testApplicationManifestJson() = assertEquals("application/manifest+json", MimeTypes.Application.MANIFEST_JSON)
+
+    @Test
     fun testApplicationMp4() = assertEquals("application/mp4", MimeTypes.Application.MP4)
 
     @Test
