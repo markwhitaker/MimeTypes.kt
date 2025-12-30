@@ -1,5 +1,6 @@
 plugins {
     `java-library`
+    `maven-publish`
     kotlin("jvm") version "2.3.0"
 }
 
@@ -20,6 +21,14 @@ dependencies {
 kotlin {
     jvmToolchain {
         languageVersion.set(JavaLanguageVersion.of(17))
+    }
+}
+
+publishing {
+    publications {
+        create<MavenPublication>("maven") {
+            from(components["java"])
+        }
     }
 }
 
