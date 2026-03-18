@@ -14,7 +14,16 @@ class MimeTypesImageTest {
     fun testImageGif() = Assert.assertEquals("image/gif", MimeTypes.Image.GIF)
 
     @Test
+    fun testImageJp2() = Assert.assertEquals("image/jp2", MimeTypes.Image.JP2)
+
+    @Test
     fun testImageJpeg() = Assert.assertEquals("image/jpeg", MimeTypes.Image.JPEG)
+
+    @Test
+    fun testImageJpm() = Assert.assertEquals("image/jpm", MimeTypes.Image.JPM)
+
+    @Test
+    fun testImageJpx() = Assert.assertEquals("image/jpx", MimeTypes.Image.JPX)
 
     @Test
     fun testImagePng() = Assert.assertEquals("image/png", MimeTypes.Image.PNG)

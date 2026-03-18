@@ -277,8 +277,17 @@ object MimeTypes {
         /** image/gif */
         const val GIF = PREFIX + "gif"
 
+        /** image/jp2 */
+        const val JP2 = PREFIX + "jp2"
+
         /** image/jpeg */
         const val JPEG = PREFIX + "jpeg"
+
+        /** image/jpm */
+        const val JPM = PREFIX + "jpm"
+
+        /** image/jpx */
+        const val JPX = PREFIX + "jpx"
 
         /** image/png */
         const val PNG = PREFIX + "png"
